@@ -153,11 +153,13 @@ iframe {
     height: 130vh;/*850px;*/
     margin-right: 10vw;
     box-shadow: 2px 2px 2px black;
-    width: 20vw;
+    width: 900px;
+    padding-right: 10px;
 }
 
 audio{
-    width:100%;
+ width:110%;   
+ 
 }
 
 
@@ -170,12 +172,12 @@ audio{
 
 .audioNoticia {
     margin-left: 20px;
-    margin-right: 5%;
+
     padding-right: 20px;
     padding-top: 30px;
-    text-justify: auto;
+    
     font-family: 'Montserrat', sans-serif;
-    text-align: left;
+    
 }
 
 #videos {
