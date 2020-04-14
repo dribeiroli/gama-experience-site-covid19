@@ -6,21 +6,21 @@ body {
     margin-right: 2%;
 }
 
-h1, p{
+h1, p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
+
 #titulo {
-    background-color: rgb(124, 204, 236);
-    color: whitesmoke;
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 17, 17);
     /* rgb(66, 59, 59);*/
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px;
+    padding-top: 4px;
     padding-left: 5%;
-    letter-spacing: 2px;
-    border-bottom: black 1px solid;
-    border-radius: 2px;
+    letter-spacing: 5px;    
     margin-bottom: 2px;
+    width: 100%;
 }
 
 .corTitulo {
@@ -34,6 +34,7 @@ h1, p{
     margin-bottom: 20px;
     justify-content: space-around;
     border-radius: 2px;
+    width: 100%;
 }
 
 #menu a, a {
@@ -41,25 +42,33 @@ h1, p{
     font-family: 'Montserrat', sans-serif;
 }
 
+
 #menu a {
     color: white;
+    padding:5px;
+    border-radius: 5px ;
 }
 
-#noticias{
+#menu a:hover{
+    color:white;
+    box-shadow: 1px 10px 30px  rgb(20, 20, 20);
+    
+}
+
+#noticias {
     display: flex;
+    
 }
 
 #textosVideos {
-    
     margin-right: 1%;
-    
-    
 }
 
 #reportagem {
     display: flex;
     padding-top: 40px;
-    border:black 2px solid;
+    padding-bottom: 40px;
+    border: black 2px solid;
     margin-bottom: 10px;
 }
 
@@ -97,11 +106,10 @@ h1, p{
 }
 
 .textoNoticia2 img {
-    width: 400px
-    ;
-    height:200px;
+    width: 400px;
+    height: 200px;
     border-radius: 5px;
-    }
+}
 
 #audios {
     background-color: grey;
@@ -114,7 +122,6 @@ h1, p{
 #audios h1 {
     margin-left: 20px;
     color: black;
-
 }
 
 .audioNoticia {
@@ -131,12 +138,13 @@ h1, p{
     display: flex;
     margin-bottom: 15%;
     padding-right: 10px;
-    border:black 2px solid;    
+    padding-top: 5px;
+    border: black 2px solid;
 }
 
-iframe{
-    width:450px;
-    height:350px;
+iframe {
+    width: 450px;
+    height: 350px;
     border-radius: 5px;
 }
 
