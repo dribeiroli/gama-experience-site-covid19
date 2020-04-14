@@ -45,11 +45,14 @@ h1, p{
     color: white;
 }
 
-#textosAudios {
+#noticias{
     display: flex;
+}
+
+#textosVideos {
+    
     margin-right: 2%;
     margin-bottom: 10px;
-    border: blue 1px;
     height: 420px;
 }
 
@@ -103,11 +106,13 @@ h1, p{
     background-color: grey;
     border-radius: 10px;
     height: 850px;
+    
 }
 
 #audios h1 {
     margin-left: 20px;
     color: black;
+
 }
 
 .audioNoticia {
