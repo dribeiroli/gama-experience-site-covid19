@@ -1,0 +1,1 @@
+Criação de site de notícias estilo landing page para execução de atividade da Gama Experience.
