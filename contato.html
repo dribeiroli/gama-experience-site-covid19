@@ -1,5 +1,6 @@
 <title>.:CovidNews:.</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="contato.css">
 </head>
 
 <body>
@@ -20,23 +21,28 @@
     <!-- modify this form HTML and place wherever you want your form -->
 
     <form action="https://formspree.io/mlewaboa" method="POST">
-
+      <div>
       <label>
-        Seu nome:
-        <input type="text" name="name">
-      </label> <br>
-      <br><label>
-        Seu email:
+        Nome completo:
+        <input type ="text" name="name">
+      </label>
+    </div>
+    <div> 
+      <label>
+        Endereço de E-mail:
         <input type="text" name="_replyto">
-      </label><br>
-      <br><label>
+      </label>
+    </div>
+
+      <div>
+      <label>
         
         <textarea id="message" name="message" placeholder="Digite sua mensagem aqui"></textarea>
       
-      </label><br>
-
+      </label>
+    </div>
       <!-- your other form fields go here -->
-
+      <div>
       <button type="submit">Enviar</button>
     </form>
   </div>

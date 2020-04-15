@@ -1,0 +1,55 @@
+
+
+form{
+    margin: 0 auto;
+    width: 400px;
+    border: olivedrab 1px solid;
+    border-radius: 1em;
+    padding:1.5em;
+}
+
+
+label{
+    display: inline;
+    width: 90px;
+    
+}
+
+input, textarea {
+    
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    border: 1px solid #999;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    
+    height: 5em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: none;
+}
+
+
+button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+    margin-left: 18.5em;
+}

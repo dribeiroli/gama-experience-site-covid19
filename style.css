@@ -6,10 +6,7 @@ body {
     margin-right: 2%;
 }
 
-#message{
-    margin-left: 70px;
-    padding:40px;
-}
+
 
 
 button{
@@ -83,20 +80,26 @@ iframe {
 }
 
 #textosVideos {
-    margin-right: 2%;
-    width: 80%/*passivel de alteracao*/
+    margin-right: 1%;
+    width: 80%;/*passivel de alteracao*/
+    
 }
 
 #reportagem {
     display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-left: 10%;
+    margin-left: 2%;
+    margin-right: 60px;
     margin-bottom: 10px;
 }
 
 .textoNoticia1 {
-    padding: 20px;
+    border: black 1px solid;
+    margin-right: 40px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+   /* padding: 20px;
     padding-right: 20%;
     padding-left: 2%;
     margin-left: 5px;
@@ -104,25 +107,36 @@ iframe {
     height: 250px;
     border: black 1px solid;
     border-radius: 20px;
-    box-shadow: 2px 2px 4px rgb(25, 55, 66);
+    box-shadow: 2px 2px 4px rgb(25, 55, 66);*/
 }
 
 .textoNoticia1 h4 {
-    padding-right: 10px;
-    font-size: 15px;
+    color:blue;
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: justify;
-    width: 25vw;
+    
 }
 
 .textoNoticia1 img {
-    width: 25vw;
+    width: 500px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
     /*300px*/
-    border-radius: 5px;
-    padding-left: 5px;
+    
+    /*padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;*/
+
 }
 
 .textoNoticia2 {
-    padding: 20px;
+    
+    border: black 1px solid;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    /*padding: 20px;
     padding-right: 40px;
     padding-bottom: 30px;
     padding-left: 30px;
@@ -137,45 +151,61 @@ iframe {
     box-shadow: black;
     border-radius: 20px;
     font-size: 15px;
-    box-shadow: 2px 2px 5px rgb(25, 55, 66);
+    box-shadow: 2px 2px 5px rgb(25, 55, 66);*/
 }
 
 .textoNoticia2 h4 {
-    font-size: 15px;
+    color:blue;
     text-align: justify;
-    width: 19vw;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 4px;
+    
+    
 }
 
 .textoNoticia2 img {
-    width: 18vw;
-    height: 30vh;
+    width:300px;
+    
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    
     /*200px;*/
-    padding-left: 5px;
+    
 }
 
 #audios {
     background-color: grey;
     border-radius: 10px;
-    height: 130vh;
-    /*850px;*/
-    margin-right: 10vw;
+    height: 130vh;    /*850px;*/
     box-shadow: 2px 2px 2px black;
+    width: 300px;
+    
 }
 
-
+audio{
+    width:100%;
+}
 
 #audios h1 {
-    margin-left: 2vw;
+    margin-left: 20px;
     color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .audioNoticia {
     margin-left: 20px;
     padding-right: 15px;
     padding-top: 30px;
-    width: 300px;
+    
+    
+    
+}
+
+.audioNoticia h3{
+    text-align: justify;        
     font-family: 'Montserrat', sans-serif;
-    text-align: justify;
+    
 }
 
 #videos {
@@ -187,5 +217,5 @@ iframe {
 }
 
 .videoNoticia {
-    margin-left: 20px;
+    margin-left: 50px;
 }
