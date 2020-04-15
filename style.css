@@ -6,9 +6,6 @@ body {
     margin-right: 2%;
 }
 
-
-
-
 button{
     margin-top: 5px;
     margin-left: 70px;
@@ -95,23 +92,15 @@ iframe {
 }
 
 .textoNoticia1 {
-    border: black 1px solid;
+    border:gray 1px solid;
     margin-right: 40px;
     border-top-left-radius:10px ;
     border-top-right-radius:10px ;
-   /* padding: 20px;
-    padding-right: 20%;
-    padding-left: 2%;
-    margin-left: 5px;
-    width: 15vw;
-    height: 250px;
-    border: black 1px solid;
-    border-radius: 20px;
-    box-shadow: 2px 2px 4px rgb(25, 55, 66);*/
+   
 }
 
 .textoNoticia1 h4 {
-    color:blue;
+    color:rgb(26, 26, 165);
     padding-top: 2px;
     padding-left: 15px;
     padding-right: 15px;
@@ -120,58 +109,36 @@ iframe {
 }
 
 .textoNoticia1 img {
-    width: 500px;
+    width: 100%;
     border-top-left-radius:10px ;
     border-top-right-radius:10px ;
-    /*300px*/
     
-    /*padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;*/
 
 }
 
 .textoNoticia2 {
     
-    border: black 1px solid;
+    border:gray 1px solid;
     border-top-left-radius:10px ;
     border-top-right-radius:10px ;
-    /*padding: 20px;
-    padding-right: 40px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-
-    margin-left: 30px;
-    margin-right: 50px;
     
-    width: 30%;
-    height: 300px;
-    
-    border: black 1px solid;
-    box-shadow: black;
-    border-radius: 20px;
-    font-size: 15px;
-    box-shadow: 2px 2px 5px rgb(25, 55, 66);*/
 }
 
 .textoNoticia2 h4 {
-    color:blue;
+    color:rgb(26, 26, 165);
     text-align: justify;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 4px;
+    padding-left: 8px;
+    padding-right: 6px;
     
     
 }
 
 .textoNoticia2 img {
-    width:300px;
-    
+    width:100%;
+    height: 250px;
     border-top-left-radius:10px ;
     border-top-right-radius:10px ;
-    
-    /*200px;*/
-    
+           
 }
 
 #audios {
@@ -190,22 +157,21 @@ audio{
 #audios h1 {
     margin-left: 20px;
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:monospace;
 }
 
 .audioNoticia {
     margin-left: 20px;
     padding-right: 15px;
     padding-top: 30px;
-    
-    
-    
+      
 }
 
 .audioNoticia h3{
     text-align: justify;        
     font-family: 'Montserrat', sans-serif;
-    
+    font-size: 16px;
+    color:black;
 }
 
 #videos {
